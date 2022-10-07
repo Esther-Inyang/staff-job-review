@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Alex+Brush&family=Roboto:ital,wght@0,400;1,300&display=swap");
+
+fonts {
+  font-family: "Alex Brush", cursive;
+  font-family: "Abyssinica SIL", serif;
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #03918a;
+}
+
+.section-loading {
+  font-size: 2rem;
+  height: 100vh;
+  padding: 20px;
+  display: grid;
+  place-items: center;
+  background-color: aliceblue;
+}
+
+.section-center {
+  height: 100vh;
+  padding: 0 10px;
+  display: grid;
+  place-items: center;
+}
+
+.staff-container {
+  width: 85%;
+  margin: 0 auto;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #32dad1;
+}
+
+.staff-btn-container {
+  display: flex;
+  gap: 5px;
+}
+
+.staff-btn {
+  font-size: 0.6rem;
+  font-weight: 600;
+  color: white;
+  background-color: #20a7a1;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  letter-spacing: 2px;
+  transition: all 0.3s ease-in;
+  border: 2px solid transparent;
+  border-left: 2px solid #073434;
+}
+
+.staff-btn:hover {
+  color: #044343;
+  background-color: #e8fbf9;
+}
+
+.active-staff-btn {
+  color: #044343;
+  font-weight: 700;
+  background-color: #e8fbf9;
+}
+
+.staff-details-section {
+  padding: 20px 20px 20px 8px;
+  /* background-color: #fdf4a2; */
+  background-color: #e8fbf9;
+  box-shadow: -3px 0 rgba(0, 0, 0, 0.5);
+}
+
+.staff-details-header {
+}
+
+.experience {
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+  color: #05706b;
+  margin: 10px 0;
+  text-transform: uppercase;
+}
+
+.underline {
+  width: 40%;
+  height: 2px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #898686;
+}
+
+.staff-job {
+  font-size: 1rem;
+  color: #4a3838;
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+
+.company {
+  color: #7d6e6e;
+  width: fit-content;
+  padding: 5px 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: #e6e0e0;
+}
+
+.date {
+  color: #554040;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 5px;
+  margin: 10px 0;
+  text-align: right;
+  font-family: "Roboto", sans-serif;
+}
+
+.staff-duty-section {
+}
+
+.staff-duty-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon {
+  color: #554040;
+}
+
+.staff-duty {
+  color: #453e3e;
+  margin-top: 10px;
+  font-weight: 500;
+  line-height: 23px;
+  font-family: "Abyssinica SIL", serif;
+}
+
+@media screen and (min-width: 768px) {
+  .staff-container {
+    width: 85%;
+    padding: 30px 40px;
+  }
+
+  .staff-btn {
+    font-size: 0.8rem;
+  }
+
+  .staff-details-section {
+    padding: 50px 30px;
+  }
+
+  .underline {
+    width: 95%;
+  }
+
+  .staff-job {
+    font-size: 1.5rem;
+    margin: 20px 0;
+  }
+
+  .staff-duty {
+    font-size: 1.5rem;
+    line-height: 27px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .staff-container {
+    width: 80%;
+  }
+
+  .staff-details-section {
+    padding: 70px 40px;
+  }
+
+  .experience {
+    font-size: 2rem;
+  }
+
+  .staff-duty {
+    font-size: 1.5rem;
+    line-height: 35px;
+    margin-top: 23px;
+  }
+}
